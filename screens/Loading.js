@@ -83,6 +83,7 @@ const Loading = ({ navigation, route }) => {
       handleStartTyping();
     }, 3500);
     return () => clearInterval(promptInterval);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

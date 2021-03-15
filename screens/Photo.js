@@ -2,7 +2,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 import { Camera } from "expo-camera";
 import * as ImagePicker from "expo-image-picker";
 import React, { useEffect, useRef, useState } from "react";
-import { Image, StyleSheet, Text, View } from "react-native";
+import { Image, StyleSheet, Text, View, Platform } from "react-native";
 import Navbar from "../components/Navbar";
 import TouchableScale from "../components/TouchableScale";
 import WomboButton from "../components/WomboButton";
